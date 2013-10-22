@@ -15,6 +15,9 @@ import java.util.Scanner;
 		public String nombre4;
 		public int edad;// aqui declaro la edad que en el otro programa será fija
 		public int edad1;
+		public int edad2;
+		public float media;
+		
 		
 		
 		public void mensaje(){//cuando llame a mensaje()tiene que aparecer lo de abajo
@@ -27,13 +30,18 @@ import java.util.Scanner;
 			nombre2=teclado.next();
 			
 			System.out.println("esta es vuestra edad:  ");//esto aparecerá cuando lo llame en el otro programa
-			edad=teclado.nextInt();
+			edad=teclado.nextInt();edad1=teclado.nextInt();edad2=teclado.nextInt();
 			
-			nombre4=(nombre=teclado.next());
-			edad1=(edad=teclado.nextInt());
-			System.out.println("este es tu nombre: " + nombre4);
+			
+			System.out.println("este es tu nombre: " + nombre + "y esta tu edad: " +edad);
 			System.out.println("este es tu nombre: " + nombre1 + " y esta tu edad: " +edad1);
-			System.out.println("este es tu nombre: " + nombre2 + " y esta tu edad: "+edad1);
+			System.out.println("este es tu nombre: " + nombre2 + " y esta tu edad: " +edad2);
+			
+			
+			media=(edad1+edad2+edad)/3;
+			System.out.println("esta es la media de edad: "+media);
+			
+			
 				
 			}
 			
