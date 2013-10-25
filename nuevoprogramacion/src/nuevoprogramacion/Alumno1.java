@@ -33,9 +33,9 @@ import java.util.Scanner;
 			edad=teclado.nextInt();edad1=teclado.nextInt();edad2=teclado.nextInt();
 			
 			
-			System.out.println("este es tu nombre: " + nombre + "y esta tu edad: " +edad);
-			System.out.println("este es tu nombre: " + nombre1 + " y esta tu edad: " +edad1);
-			System.out.println("este es tu nombre: " + nombre2 + " y esta tu edad: " +edad2);
+			System.out.println("este es tu nombre: " + nombre + "y esta tu edad: %s\n" +edad);
+			System.out.println("este es tu nombre: " + nombre1 + " y esta tu edad: %s\n" +edad1);
+			System.out.println("este es tu nombre: " + nombre2 + " y esta tu edad: %s\n" +edad2);
 			
 			
 			media=(edad1+edad2+edad)/3;
