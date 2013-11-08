@@ -2,6 +2,8 @@ package nuevoprogramacion;
 
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class Alumno1 {
 
 	public String nombre;// aqui declaro el nombre que tiene que tener el alumno

@@ -6,7 +6,7 @@ import graphics.Rectangle;
 
 public class Car {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		Rectangle uno;
 		uno = new Rectangle(10, 20, 250, 75);
@@ -32,8 +32,30 @@ public class Car {
 		tre.setColor(Color.DARK_GRAY);
 		tre.fill();
 		
-		
-		
+		//para mover el vehiculo
+		/*utilizamos el translate para cada objeto creado, tengo que probarlo
+		 * uno.translate(5,0); esta sería el codigo para todo. y con el thread.sleep(500); el numero es variable, aceleramos o 
+		 * ralentizamos el movimiento.
+		 * 
+		 */
+		Thread.sleep(500);
+		uno.translate(5,0);
+		dos.translate(5,0);
+		two.translate(5,0);
+		un.translate(5,0);
+		tre.translate(5,0);
+		Thread.sleep(500);
+		uno.translate(5,0);
+		dos.translate(5,0);
+		two.translate(5,0);
+		un.translate(5,0);
+		tre.translate(5,0);
+		Thread.sleep(500);
+		uno.translate(5,0);
+		dos.translate(5,0);
+		two.translate(5,0);
+		un.translate(5,0);
+		tre.translate(5,0);
 	}
 
 }
