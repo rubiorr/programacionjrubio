@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Ejercicio_dialaboralbeta {
 
-	@SuppressWarnings("unchecked")
-	public static <String> void main(String[] args) {
-		// TODO Auto-generated method stub
 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
 		Scanner teclado = new Scanner(System.in);
 		String dia;
 		System.out.print("dame el dia de la semana en numero: ");
-		dia = (String) teclado.nextLine();
-		switch ("dia") {
+		dia = teclado.nextLine();
+		switch (dia) {
 		case "lunes":
 		case "martes":
 		case "miercoles":
